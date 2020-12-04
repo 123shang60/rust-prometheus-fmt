@@ -9,3 +9,5 @@ edition = "2018"
 [dependencies]
 prometheus_exporter_base = "1.1.0"
 psutil = "3.2.0"
+actix-web = "3.0"
+actix-service = "^1.0"
