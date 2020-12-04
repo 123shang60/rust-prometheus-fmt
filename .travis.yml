@@ -12,6 +12,7 @@ before_script:
   - rustup component add clippy rustfmt
 
 script:
+  - cargo update
   - cargo fmt
   - cargo fix
   - cargo fix
